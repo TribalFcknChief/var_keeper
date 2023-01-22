@@ -1,0 +1,10 @@
+# Created by https://www.toptal.com/developers/gitignore/api/circuitpython
+# Edit at https://www.toptal.com/developers/gitignore?templates=circuitpython
+
+### CircuitPython ###
+.Trashes
+.metadata_never_index
+.fseventsd/
+boot_out.txt
+
+# End of https://www.toptal.com/developers/gitignore/api/circuitpython
