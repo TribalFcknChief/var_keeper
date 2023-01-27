@@ -1,4 +1,6 @@
 name: Unit Tests
+- name: Checkout
+  uses: actions/checkout@v3
 run-name: Run Unit Tests
 on:
   push:
@@ -14,5 +16,3 @@ jobs:
           chmod +x ./test/unit-tests.sh
           ./test/unit-tests.sh
         shell: bash
-- name: Checkout
-  uses: actions/checkout@v3
